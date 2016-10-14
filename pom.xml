@@ -25,6 +25,11 @@
 		<dependencies>
 			<dependency>
 				<groupId>sy</groupId>
+				<artifactId>service</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>sy</groupId>
 				<artifactId>model</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -88,5 +93,6 @@
 		<module>api</module>
 		<module>dao</module>
 		<module>model</module>
+    	<module>service</module>
   </modules>
 </project>
