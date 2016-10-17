@@ -32,7 +32,7 @@ public class DaoConfig {
 		public @Bean SqlSessionFactory sqlSessionFactory() throws Exception{
 			SqlSessionFactoryBean sqlSessionFactory = new SqlSessionFactoryBean();
 			sqlSessionFactory.setDataSource(dataSource());
-			sqlSessionFactory.setConfigLocation(new ClassPathResource(""));
+			sqlSessionFactory.setConfigLocation(new ClassPathResource("config/mapper-config.xml"));
 			return sqlSessionFactory.getObject();
 		}
 		
